@@ -1,5 +1,9 @@
  {
   "redirects": [
+    { 
+     "source": "/(.*)", 
+     "destination": "/api/index" 
+    },
     {
       "source": "/",
       "destination": "https://github.com/allprod/spotify-on-readme"
